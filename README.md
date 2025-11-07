@@ -74,4 +74,3 @@ Add dark mode UI for the Tkinter app
 Bikash Ranjan Sahoo
 📍 Odisha, India
 💬 Full Stack & Python Developer
-🌐 GitHub Profile
