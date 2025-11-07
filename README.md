@@ -1,121 +1,77 @@
-# 🧠 Diabetes Prediction System using Machine Learning (Tkinter GUI)
+🩺 Diabetes Prediction System using Machine Learning
 
-A desktop-based **Machine Learning application** built with **Python** and **Tkinter** that predicts whether a person is diabetic or not based on key medical parameters.  
-The project uses multiple ML models and provides an easy-to-use GUI for users to interact with the system.
+A desktop-based Diabetes Prediction System built with Python, Tkinter, and Machine Learning algorithms.
+This project allows users to input medical data and get real-time predictions on whether they are likely to have diabetes, based on a trained dataset.
 
----
+🚀 Features
 
-## 🚀 Features
+🧠 Trains and compares multiple ML models:
 
-✅ Train and evaluate multiple ML models:
-- Logistic Regression  
-- K-Nearest Neighbors (KNN)  
-- Decision Tree  
-- Random Forest  
+Logistic Regression
 
-✅ Compare model accuracies visually using bar charts  
-✅ Real-time prediction using user input  
-✅ Interactive Tkinter-based GUI  
-✅ Input validation and error handling  
+K-Nearest Neighbors (KNN)
 
----
+Decision Tree Classifier
 
-## 🧰 Technologies Used
+Random Forest Classifier
 
-| Category | Technologies |
-|-----------|---------------|
-| Programming Language | Python |
-| GUI Framework | Tkinter |
-| Data Processing | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Visualization | Matplotlib |
+📊 Displays a bar chart comparison of model accuracies
 
----
+🖥️ User-friendly Tkinter GUI interface
 
-## 📊 Dataset
+🔮 Real-time prediction based on user inputs
 
-The project uses the **Pima Indians Diabetes Dataset**, containing the following features:
+🧾 Simple and lightweight — runs locally without any web server
 
-- Pregnancies  
-- Glucose  
-- Blood Pressure  
-- Skin Thickness  
-- Insulin  
-- BMI  
-- Diabetes Pedigree Function  
-- Age  
-- Outcome (0 = Non-Diabetic, 1 = Diabetic)
+🧩 Technologies Used
+Component	Technology
+Programming Language	Python
+GUI Framework	Tkinter
+Machine Learning	Scikit-learn
+Data Handling	Pandas, NumPy
+Visualization	Matplotlib
+⚙️ Installation and Setup
 
-**Note:** Replace the file path in the script with your local dataset path:
-```python
-df = pd.read_csv(r"C:\path\to\your\diabetes_file.csv")
+Follow these steps to run the project locally:
 
+1️⃣ Clone this repository
+git clone https://github.com/<your-username>/diabetes-prediction-system.git
 
+2️⃣ Navigate to the project folder
+cd diabetes-prediction-system
 
+3️⃣ Install required libraries
+pip install pandas numpy scikit-learn matplotlib
 
-## ⚙️ Installation & Setup 
-
---Clone the repository
-
-git clone https://github.com/yourusername/Diabetes-Prediction-Tkinter-ML.git
-cd Diabetes-Prediction-Tkinter-ML
-
- 
-
---Install dependencies
-
-pip install -r requirements.txt
-
-
-
---Run the application
-
+4️⃣ Run the program
 python diabetes_prediction.py
 
+📁 File Structure
+Diabetes Prediction System/
+│
+├── diabetes_prediction.py      # Main application file
+├── diabetes_file.csv           # Dataset used for training
+└── README.md                   # Project documentation
 
+📊 Output Preview
 
+GUI Window — Enter data and get prediction results
 
+Model Comparison Chart — Visual accuracy comparison
 
+💡 Future Enhancements
 
-## 🖥️ GUI Preview
+Integrate with a web interface using Flask or Django
 
-🪟 The app interface includes:
+Add database storage for patient data
 
-Buttons to train and compare models
+Improve model accuracy with feature scaling and tuning
 
-Fields to input new patient data
+Add dark mode UI for the Tkinter app
 
-Prediction result pop-up
+👨‍💻 Author
 
-Example:
-“You have NO Diabetes” or “You HAVE Diabetes”
-
-
-
-
-
-
-## 📈 Output Example
-
-When you click COMPARE, a bar chart will appear comparing the accuracy of all trained models.
-
-🧑‍💻 Author
-
-👤 Bikash Ranjan Sahoo
-🎓 Full Stack Web Developer & Python Enthusiast
-📍 From Odisha, India
-
-If you like this project, don’t forget to ⭐ the repository!
-
-
-
-
-
-
-## 📬 Contact
-
-For queries or collaboration:
-
-📧 Email: bikashranjansahoo194@gmail.com
-
-🌐 LinkedIn: https://www.linkedin.com/in/bikash-ranjan-sahoo-3594b6302/
+Bikash Ranjan Sahoo
+📍 Odisha, India
+💬 Full Stack & Python Developer
+🌐 GitHub Profile
